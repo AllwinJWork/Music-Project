@@ -1,30 +1,71 @@
-img.HomePage {
-    height: 600px;
-    width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+.container h1{
+  margin-left: 21px;
+
+  
+
+  
+}
+
+img.homePage {
+  height: 600px;
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  }
+
+.textOverlay {
+      position: absolute;
+      top: 74%;
+      right: 76%;
+      transform: translate(-50%, -50%);
+     
+      color: rgb(255, 255, 255);
     }
-  
-    .textOverlay {
-        position: absolute;
-        top: 70%;
-        right: 75%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        color: white;
-      }
+    
+.textOverlay h2 {
+      font-size: 30px;
+      font-family: monospace;
+      margin-bottom: 10px;
+    }
+    
+.textOverlay p {
+      font-size: 16px;
+    }
+
+ .textOverlay h3 {
+    font-size: 28px;
+    font-family: monospace;
+    color:white ;
+    position: absolute;
+    bottom: 340px;
+    left: 1180px;
+    display: inline-block;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  }
+    
+.textUnderImage {
+      margin-top: 20px;
+}
+    
+    
+.textUnderImage p {
+      font-family: monospace;
+      font-size: 16px;
+      color: black;
+      display: inline;
+      vertical-align: middle;
+      margin-left:21px;
+      font-style:bold;
+      margin-top: 20px;
       
-      .textOverlay h2 {
-        font-size: 30px;
-        margin-bottom: 10px;
-      }
-      
-      .textOverlay p {
-        font-size: 16px;
-      }
-      
+
+    }
+
+   
+    
 
 
 
-  
