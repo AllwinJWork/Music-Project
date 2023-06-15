@@ -8,7 +8,9 @@ import { Link } from 'react-router-dom';
 const MyComponent: React.FC = () => {
   return (
     <div className="container">
-    <h1>The Author.</h1>
+    <Link to="/about">
+        <h1>The Author.</h1>
+    </Link>
       <div>
         <img className='homePage' src={homeBg} alt="My Image" />
         <div className="textOverlay">
