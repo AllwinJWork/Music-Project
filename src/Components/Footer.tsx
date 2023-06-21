@@ -1,25 +1,37 @@
 import React from 'react';
 import { Link, useMatch,useResolvedPath } from 'react-router-dom';
-import './Navbar.css';
+import './Footer.css';
 
 
- function NavBar (){
+
+ function Footer (){
     return (
     
-    <nav className='nav'>
-        <Link to='/about' className='about'>The Author</Link>
+    <footer className='footer'>
+        <div>
+        <h2>Quick Links</h2>
         <ul>
            <CustomLink to='/homepage'>Home!</CustomLink>
            <CustomLink to='/learning'>Learning Zone</CustomLink>
            <CustomLink to='/inspired'>Be Inspired</CustomLink>
-           <CustomLink to='/artist'>Artist Zone</CustomLink>
-           <CustomLink to='/donations'>Donations</CustomLink>
-           <CustomLink to='/enquries'>Enquries</CustomLink>
-
         </ul>
-    </nav>
+        </div>
+
+        <div>
+            <h2 className='footer-text'> Get in touch with us.</h2>
+            <button>
+            <CustomLink to='/enquries'>Enquries</CustomLink>
+            </button>
+        </div>
+        <div>
+        <h2 className='footer-text'> A cause worth fighting for.</h2>
+            <button>
+            <CustomLink to='/donations'>Donate Now</CustomLink>
+            </button>
+         </div>
+    </footer>
     )
-};  
+};
 interface CustomLinkProps {
     to: string;
     children: React.ReactNode;
@@ -38,5 +50,4 @@ interface CustomLinkProps {
       </li>
     );
   };
-
-  export default NavBar;
+  export default Footer;

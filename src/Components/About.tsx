@@ -1,6 +1,12 @@
-import React from "react"
+import React from 'react';
 
-export default function Donations () {
+function About(){
+  return (
+    <div>
+      <h1>About Me</h1>
+      
+      </div>
+  );
+};
 
-    return (<h1>Donate to Me</h1>)
-}
+export default About;
