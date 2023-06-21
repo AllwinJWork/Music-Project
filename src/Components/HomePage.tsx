@@ -14,7 +14,7 @@ const MyComponent: React.FC = () => {
         <div className="textOverlay">
           <h2>Be inspired</h2>
           <p>There is power in music.</p>
-          <h3>Muisc is the universal language of mankind</h3>
+          <h3>Music is the universal language of mankind</h3>
         </div>
       </div>
       <div className="textUnderImage">
