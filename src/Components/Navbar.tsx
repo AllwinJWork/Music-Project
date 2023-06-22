@@ -9,7 +9,7 @@ import './Navbar.css';
     <nav className='nav'>
         <Link to='/about' className='about'>The Author</Link>
         <ul>
-           <CustomLink to='/homepage'>Home!</CustomLink>
+           <CustomLink to='/homepage'>Home</CustomLink>
            <CustomLink to='/learning'>Learning Zone</CustomLink>
            <CustomLink to='/inspired'>Be Inspired</CustomLink>
            <CustomLink to='/artist'>Artist Zone</CustomLink>

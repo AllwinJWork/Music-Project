@@ -11,7 +11,7 @@ import './Footer.css';
         <div>
         <h2>Quick Links</h2>
         <ul>
-           <CustomLink to='/homepage'>Home!</CustomLink>
+           <CustomLink to='/homepage'>Home</CustomLink>
            <CustomLink to='/learning'>Learning Zone</CustomLink>
            <CustomLink to='/inspired'>Be Inspired</CustomLink>
         </ul>
