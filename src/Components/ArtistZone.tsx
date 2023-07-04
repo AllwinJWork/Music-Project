@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import SpotifyWebApi from 'spotify-web-api-js';
 import './ArtistZone.css';
+import Artists from '../Assets/ArtistZone/Artists.jpeg'
 
 function ArtistZone() {
   const CLIENT_ID = "23898b37e61445eb834e6bf74f986dbe";
@@ -25,6 +26,9 @@ function ArtistZone() {
           contribute to the collective human experience, making music artists a
           vital force in society.
         </p>
+        <img className="Artists" src={Artists} alt="Artist" />
+
+
 
         <div className="FeaturedArtists">
           <p>

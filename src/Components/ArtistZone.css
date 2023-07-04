@@ -1,51 +1,48 @@
 .ArtistZone {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 20px;
-  }
-  
-  .ArtistZone-opening {
-    margin-bottom: 40px;
-  }
-  
-  .ArtistZone-opening h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-  }
-  
-  .ArtistZone-opening p {
-    font-size: 18px;
-    line-height: 1.5;
-  }
+  padding: 20px;
+}
 
-  .ArtistZone-opening p span.highlight {
-    color: #1db954;
-    font-weight: bold;
-  }
-  
-  
-  .FeaturedArtists {
-    background-color: #f2f2f2;
-    padding: 20px;
-    border-radius: 4px;
-  }
-  
-  .FeaturedArtists h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .FeaturedArtists img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 10px;
-  }
-  
-  .FeaturedArtists p {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
+.App-header {
+  text-align: center;
+}
+
+.ArtistZone-opening {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ArtistZone-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.ArtistZone-opening .ArtistZone-text {
+  max-width: 600px;
+}
+
+.ArtistZone-opening .ArtistZone-text h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.ArtistZone-opening .ArtistZone-text p {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.ArtistZone-opening img.Artists {
+  max-width: 600px;
+  margin-left: 40px;
+  position:left;
+  ;
+}
+.ArtistZone {
+  padding: 20px;
+  font-family: monospace;
+}
