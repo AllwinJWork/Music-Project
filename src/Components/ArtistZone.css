@@ -1,0 +1,51 @@
+.ArtistZone {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .ArtistZone-opening {
+    margin-bottom: 40px;
+  }
+  
+  .ArtistZone-opening h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .ArtistZone-opening p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .ArtistZone-opening p span.highlight {
+    color: #1db954;
+    font-weight: bold;
+  }
+  
+  
+  .FeaturedArtists {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .FeaturedArtists h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .FeaturedArtists img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .FeaturedArtists p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
