@@ -1,7 +1,6 @@
 /* eslint-disable react/style-prop-object */
-import React, { useEffect, useState } from "react";
-import SpotifyWebApi from 'spotify-web-api-js';
-import './ArtistZone.css';
+import React, { useState } from "react";
+import '../Components/ArtistZone.css';
 import Artists from '../Assets/ArtistZone/Artists.jpeg'
 
 function ArtistZone() {

@@ -3,11 +3,11 @@ import NavBar from './Components/Navbar';
 import Footer from './Components/Footer';
 import './App.css';
 import {Route,Routes} from 'react-router-dom';
-import HomePage from './Components/HomePage'
-import About from './Components/About';
-import Donations from './Components/Donations';
-import ArtistZone from './Components/ArtistZone';
-import ArtistAuth from './Components/ArtistAuth';
+import HomePage from './Pages/HomePage'
+import About from './Pages/AboutPage';
+import Donations from './Pages/DonationsPage';
+import ArtistZone from './Pages/ArtistZonePage';
+import ArtistAuth from './Pages/ArtistAuthPage';
 
 
 
