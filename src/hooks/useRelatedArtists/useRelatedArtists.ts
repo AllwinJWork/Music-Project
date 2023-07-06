@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Artists } from "./Artists.types";
 
 const useRelatedArtists = (accessToken: string, artistId: string) => {
