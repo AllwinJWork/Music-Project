@@ -37,7 +37,8 @@ function ArtistZone() {
       <div>
         <h2>Featured Artist:</h2>
 
-        {/* <div className="grid">
+        {/* <div className="grid">5!
+        
         <div className="img-wrapper right">
           <img className="blur" src={postMalone} alt="" />
           <div className="content fade">Post Malone</div>
