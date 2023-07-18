@@ -1,6 +1,7 @@
 import React from 'react'
 import { Artists } from '../../hooks/useArtistSearch/Search.types';
 
+
 export interface ArtistSearchResultsProps { 
     artists: Artists;
     handleSelectArtist: (artistId: string) => void;

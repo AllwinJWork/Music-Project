@@ -22,7 +22,7 @@ const ArtistSearch = ({ setArtistSearch }: ArtistSearchProps) => {
       <p className="description">We will help you find new artists.</p>
       <div className="search-bar">
         <input type="text" value={searchQuery} onChange={onChangeHandler} placeholder="Search for an artist" />
-        <button onClick={onSubmitHandler}>Search</button>
+        <button className="button-86" onClick={onSubmitHandler}>Search</button>
       </div>
     </div>
   );

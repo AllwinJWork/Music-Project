@@ -1,4 +1,4 @@
-import { fireEvent, render, screen, waitFor } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import { Artists } from "../../../hooks/useArtistSearch/Search.types";
 import ArtistSearchResults from "../ArtistSearchResults";
 

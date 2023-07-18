@@ -1,48 +1,52 @@
-.ArtistZone {
-  padding: 20px;
-}
-
-.App-header {
-  text-align: center;
-}
-
-.ArtistZone-opening {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.ArtistZone-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 40px;
-}
-
-.ArtistZone-opening .ArtistZone-text {
-  max-width: 600px;
-}
-
-.ArtistZone-opening .ArtistZone-text h1 {
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-
-.ArtistZone-opening .ArtistZone-text p {
-  font-size: 18px;
-  margin-bottom: 16px;
+/* ArtistZone.css */
+.ArtistZone h1 {
+  font-family: monospace;
+  color: black !important;
+  top: 0;
+  left: 0;
+  margin: 20px;
 }
 
 .ArtistZone-opening img.Artists {
-  max-width: 600px;
-  margin-left: 40px;
-  position:left;
-  ;
+  height: 600px;
+  width: 1400px;
+  margin: 0 auto;
+  display: block;
 }
-.ArtistZone {
-  padding: 20px;
+
+.textOverlay {
+  position: relative; /* Set the parent container as relative */
+}
+
+.textOverlay h3 {
+  position: absolute; /* Set the h3 element as absolute */
+  bottom: 800px; /* Adjust the vertical position */
+  left: 50%; /* Adjust the horizontal position */
+  transform: translate(0%, 30%); /* Center the element */
+}
+
+.textOverlay h2 {
   font-family: monospace;
+  transform: translate(0%,30%);
+}
+
+.FeaturedArtists .PostMalone {
+  position: relative; /* Add position: relative to the image container */
+  width: 200px; /* Set the desired width */
+  height: auto; /* Let the height adjust proportionally */
+}
+
+.FeaturedArtists .caption {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.FeaturedArtists:hover .caption {
+  opacity: 1;
 }
