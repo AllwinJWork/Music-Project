@@ -1,9 +1,9 @@
 .artist-zone-container {
   padding-left: 10px;
   padding-right: 10px;
-  border:2px solid red;
- 
-
 }
 
-
+.artist-zone-info-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

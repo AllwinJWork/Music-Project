@@ -10,9 +10,9 @@ export interface ImageIconProps {
 
 const ImageIcon = ({ image, text }: ImageIconProps) => {
   return (
-    <div className="img-icon-container">
+    <div className="image-icon-container">
       <img className="blur" src={image.src} alt={image.src} />
-      <div className="content fade">{text}</div>
+      <div className="image-icon-content">{text}</div>
     </div>
   );
 };

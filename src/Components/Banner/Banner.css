@@ -1,6 +1,10 @@
-.artist-zone-banner {
- 
-position: relative; 
+artist-zone-banner {
+  display: block;
+  position: static;
+}
+
+.artist-zone-banner-container {
+  position: relative;
   height: 600px;
   width: 100%;
   margin-top: 10px;
@@ -10,12 +14,11 @@ position: relative;
   font-size: 25px;
 }
 
-
 .artist-zone-image {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  padding-bottom: 2000px;
+
 }
 
 .artist-zone-overlay {
@@ -25,7 +28,7 @@ position: relative;
   margin-right: 30px;
   margin-top: 20px;
   text-align: right;
-  color: #fff; 
+  color: #fff;
 }
 
 .artist-zone-title-overlay {
