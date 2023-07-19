@@ -24,12 +24,12 @@
   
   .expandable-button:focus {
     outline: none;
-    box-shadow: 0 0 0 3px #442b33;
+    box-shadow: 0 0 0 3px #442b33
+    
   }
   
 .expandable-content {
     font-family: monospace;
     margin-top: 15px;
-    border: 1px solid #000;
-    padding-right: 10px;
+  
 }

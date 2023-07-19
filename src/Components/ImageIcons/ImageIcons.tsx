@@ -14,7 +14,15 @@ const icons = [
     },
     text: "Post Malone",
   },
+  {
+    image: {
+      src: "https://bestanimations.com/media/lights/1012117842paper-lantern-light-festival-gif.gif",
+      alt: "hey",
+    },
+    text: "Shakira ",
+  },
 
+  
   {
     image: {
       src: travisScott,
@@ -22,21 +30,7 @@ const icons = [
     },
     text: "Travis Scott",
   },
-  {
-    image: {
-      src: mariahCarey,
-      alt: "Post Malone",
-    },
-    text: "Post ",
-  },
-  {
-    image: {
-      src: "https://bestanimations.com/media/music/1902085999crazy-lightshow-rave-concert-animated-gif-3.gif",
-      alt: "Animation Gif Crowd",
-    },
-      text: "Crowded"
-  },
-
+  
   {
     image: {
       src: "https://66.media.tumblr.com/c4d067d4792b3f769dbcfca6bddbaa18/cea4598a476774ca-2c/s640x960/efffb85d381623cf802e7352c66024e95c409449.gif",
@@ -47,18 +41,26 @@ const icons = [
 
   {
     image: {
-      src: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGlnbGMxMXk0b3h3MjhlZ2YzOTVkeWd5MmRyY2ZjZ3A1NXgxbnFoeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1wq4LG6HO8rTsloIPq/giphy.gif",
-      alt: "hey",
+src: "https://i.gifer.com/XYR4.gif" ,     
+alt: "hey",
     },
     text: "Vibrant ",
   },
-
   {
     image: {
-      src: "https://c4.wallpaperflare.com/wallpaper/802/445/66/music-wallpaper-preview.jpg",
-      alt: "hey",
+      src: mariahCarey,
+      alt: "Post Malone",
     },
-    text: "Shakira ",
+    text: "Post ",
+  },
+
+  
+  {
+    image: {
+      src: "https://bestanimations.com/media/music/1902085999crazy-lightshow-rave-concert-animated-gif-3.gif",
+      alt: "Animation Gif Crowd",
+    },
+      text: "Crowded"
   },
   {
     image: {
@@ -67,7 +69,6 @@ const icons = [
     },
     text: "Shakira ",
   },
-
 
 ] as ImageIconProps[];
 
