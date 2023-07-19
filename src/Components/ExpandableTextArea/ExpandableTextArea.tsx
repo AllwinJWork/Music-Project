@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import "./ExpandableTextArea.css"
+import "./ExpandableTextArea.css";
+import { Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 export interface ExpandableTextAreaProps {
   content: React.ReactNode;
@@ -17,20 +19,21 @@ const ExpandableTextArea = ({
   expandable = true,
 }: ExpandableTextAreaProps) => {
   const [isOpen, setIsOpen] = useState(!expandable);
-
+  const navigate = useNavigate();
   return (
     <div>
       <div className="expandable-content">{isOpen ? content : excert}</div>
       {expandable && (
-        <button
-          className="expandable-button"
-          onClick={() => setIsOpen(!isOpen)}
-        >
+        <Button onClick={() => setIsOpen(!isOpen)} variant="text">
           {isOpen ? "read less..." : "read more..."}
-        </button>
+        </Button>
       )}
 
-      {buttonLink && <a href={buttonLink.link}>{buttonLink.text}</a>}
+      {buttonLink && (
+        <Button onClick={() => navigate(buttonLink.link)} variant="outlined">
+         {buttonLink.text}
+        </Button>
+      )}
     </div>
   );
 };

@@ -5,7 +5,6 @@ import postMalone from "../../Assets/ArtistZone/PostMalone.jpeg";
 import travisScott from "../../Assets/ArtistZone/TravisScott.jpeg";
 import mariahCarey from "../../Assets/ArtistZone/MariahCarey.jpeg";
 
-
 const icons = [
   {
     image: {
