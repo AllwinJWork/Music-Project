@@ -6,12 +6,7 @@ import Banner from "../Components/Banner/Banner";
 import ImageIcons from "../Components/ImageIcons/ImageIcons";
 import ExpandableTextArea from "../Components/ExpandableTextArea/ExpandableTextArea";
 
-const paragraphStyles: React.CSSProperties = {
-  WebkitLineClamp: 3,
-  WebkitBoxOrient: "vertical",
-  overflow: "hidden",
-  display: " -webkit-box",
-};
+
 
 function ArtistZone() {
   const CLIENT_ID = "23898b37e61445eb834e6bf74f986dbe";
@@ -31,11 +26,10 @@ function ArtistZone() {
         <h2 id="featured-artist-heading">Featured Artists.</h2>
         <ImageIcons />
       </div>
-
+<h1>Find out more...</h1>
       <div className="artist-zone-info-container">
         <ExpandableTextArea
           content={
-
             <p>
               Music is something we all love and most definitely cannot live
               without. Music artists have an undeniable influence on society
