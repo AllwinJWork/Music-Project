@@ -1,0 +1,45 @@
+.nav {
+  background-color: peru;
+  padding: 10px;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: color 0.3s ease-in-out;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.nav a:hover {
+  color: rgb(20, 58, 90);
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.nav ul li {
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav ul li:first-child {
+  margin-left: 0;
+}
+
+.nav ul li:hover {
+  transform: scale(1.1);
+}
+
+/* Adding a new class for the "about" link */
+.nav .about {
+  color: yellow;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}

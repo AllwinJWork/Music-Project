@@ -1,0 +1,61 @@
+.artist-button {
+  background-color: "blue";
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.artist-search-container {
+
+    font-family: monospace;
+}
+
+.textOverlay {
+    position: absolute;
+    top: 74%;
+    right: 76%;
+    transform: translate(-50%, -50%);
+   
+    color: rgb(255, 255, 255);
+  }
+  
+
+  .textOverlay h2 {
+      font-size: 30px;
+      font-family: monospace;
+      margin-bottom: 10px;
+    }
+    
+.textOverlay p {
+      font-size: 16px;
+    }
+
+ .textOverlay h3 {
+    font-size: 28px;
+    font-family: monospace;
+    color:white ;
+    position: absolute;
+    bottom: 340px;
+    left: 1180px;
+    display: inline-block;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  }
+    
+.textUnderImage {
+      margin-top: 20px;
+}
+    
+    
+.textUnderImage p {
+      font-family: monospace;
+      font-size: 16px;
+      color: black;
+      display: inline;
+      vertical-align: middle;
+      margin-left:21px;
+      font-style:bold;
+      margin-top: 20px;
+      
+
+    }
