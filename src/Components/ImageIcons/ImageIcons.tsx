@@ -37,6 +37,39 @@ const icons = [
     },
       text: "Crowded"
   },
+
+  {
+    image: {
+      src: "https://66.media.tumblr.com/c4d067d4792b3f769dbcfca6bddbaa18/cea4598a476774ca-2c/s640x960/efffb85d381623cf802e7352c66024e95c409449.gif",
+      alt: "",
+    },
+    text: "Excitment ",
+  },
+
+  {
+    image: {
+      src: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGlnbGMxMXk0b3h3MjhlZ2YzOTVkeWd5MmRyY2ZjZ3A1NXgxbnFoeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1wq4LG6HO8rTsloIPq/giphy.gif",
+      alt: "hey",
+    },
+    text: "Vibrant ",
+  },
+
+  {
+    image: {
+      src: "https://c4.wallpaperflare.com/wallpaper/802/445/66/music-wallpaper-preview.jpg",
+      alt: "hey",
+    },
+    text: "Shakira ",
+  },
+  {
+    image: {
+      src: "https://c4.wallpaperflare.com/wallpaper/802/445/66/music-wallpaper-preview.jpg",
+      alt: "hey",
+    },
+    text: "Shakira ",
+  },
+
+
 ] as ImageIconProps[];
 
 const ImageIcons = () => {

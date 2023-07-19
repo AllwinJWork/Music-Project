@@ -30,73 +30,7 @@ function ArtistZone() {
       <div>
         <h2>Featured Artist:</h2>
 
-        {/* <div className="grid">5!
         
-        <div className="img-wrapper right">
-          <img className="blur" src={postMalone} alt="" />
-          <div className="content fade">Post Malone</div>
-        </div>
-        <div className="img-wrapper">
-          <img className="zoom blur" src={crowd} alt="" />
-          <div className="content fade">Excitement</div>
-        </div>
-        <div className="img-wrapper">
-          <img className="blur" src={travisScott} alt="" />
-          <div className="content slide-left">Travis Scott </div>
-        </div>
-        <div className="img-wrapper">
-          <img
-            className="blur"
-            src="https://bestanimations.com/media/music/1902085999crazy-lightshow-rave-concert-animated-gif-3.gif"
-            alt=""
-          />
-          <div className="content slide-right">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse
-            maiores aspernatur explicabo maxime doloremque rem porro ad in
-            eveniet error!
-          </div>
-        </div>
-        <div className="img-wrapper">
-          <img
-            className="blur"
-            src="https://66.media.tumblr.com/c4d067d4792b3f769dbcfca6bddbaa18/cea4598a476774ca-2c/s640x960/efffb85d381623cf802e7352c66024e95c409449.gif"
-            alt=""
-          />
-          <div className="content slide-up">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse
-            maiores aspernatur explicabo maxime doloremque rem porro ad in
-            eveniet error!
-          </div>
-        </div>
-        <div className="img-wrapper">
-          <img className="blur" src={mariahCarey} alt="MariahCarey" />
-          <div className="content slide-down">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse
-            maiores aspernatur explicabo maxime doloremque rem porro ad in
-            eveniet error!
-          </div>
-        </div>
-        <div className="img-wrapper">
-          <img
-            className="gray"
-            src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGlnbGMxMXk0b3h3MjhlZ2YzOTVkeWd5MmRyY2ZjZ3A1NXgxbnFoeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1wq4LG6HO8rTsloIPq/giphy.gif"
-            alt="PinkGif"
-          />
-          <div className="content slide-down">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse
-            maiores aspernatur explicabo maxime doloremque rem porro ad in
-            eveniet error!
-          </div>
-        </div>
-        <div className="img-wrapper">
-          <img
-            className="gray"
-            src="https://c4.wallpaperflare.com/wallpaper/802/445/66/music-wallpaper-preview.jpg"
-            alt="Shakira"
-          />
-          <div className="content slide-down">Shakira </div>
-        </div>
-      </div> */}
         <ImageIcons />
       </div>
       <div className="artist-zone-info-container">

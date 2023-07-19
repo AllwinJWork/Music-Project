@@ -2,6 +2,8 @@
   display: grid;
   grid-template-columns: repeat(4,1fr); 
   width: 1000px;
+  height:500;
+  position:center;
 }
 .image-icon-container {
   position: relative;

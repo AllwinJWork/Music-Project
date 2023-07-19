@@ -1,5 +1,6 @@
 import React from "react";
 import "./ImageIcons.css"
+
 export interface ImageIconProps {
   text: string;
   image: {
