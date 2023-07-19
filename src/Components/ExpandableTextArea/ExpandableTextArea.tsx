@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./ExpandableTextArea.css"
 
 export interface ExpandableTextAreaProps {
   content: React.ReactNode;
@@ -13,18 +14,23 @@ const ExpandableTextArea = ({
   content,
   excert,
   buttonLink,
-  expandable = true
+  expandable = true,
 }: ExpandableTextAreaProps) => {
   const [isOpen, setIsOpen] = useState(!expandable);
 
   return (
     <div>
-      <div className="content">{isOpen ? content : excert}</div>
-     {expandable &&  <button onClick={() => setIsOpen(!isOpen)}>
-        {isOpen ? "read less..." : "read more..."}
-      </button>}
+      <div className="expandable-content">{isOpen ? content : excert}</div>
+      {expandable && (
+        <button
+          className="expandable-button"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          {isOpen ? "read less..." : "read more..."}
+        </button>
+      )}
 
-      {buttonLink && <a href= {buttonLink.link}>{buttonLink.text}</a>}
+      {buttonLink && <a href={buttonLink.link}>{buttonLink.text}</a>}
     </div>
   );
 };

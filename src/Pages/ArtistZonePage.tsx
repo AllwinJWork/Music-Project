@@ -35,6 +35,7 @@ function ArtistZone() {
       <div className="artist-zone-info-container">
         <ExpandableTextArea
           content={
+
             <p>
               Music is something we all love and most definitely cannot live
               without. Music artists have an undeniable influence on society
@@ -57,6 +58,8 @@ function ArtistZone() {
           }
           expandable={true}
         />
+
+        
         <ExpandableTextArea
           content={
             <p>
@@ -102,6 +105,7 @@ function ArtistZone() {
 
         <div className="artist-zone-auth-link">
           <h2>Spotify React</h2>
+          <p>Let us broaden your horizons for you!</p>
           <a
             href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}
           >
