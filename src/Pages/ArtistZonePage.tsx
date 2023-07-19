@@ -27,19 +27,18 @@ function ArtistZone() {
         introText="There is power in music"
         caption="Without music, our lives would be very boring!"
       />
-      <div>
-        <h2>Featured Artist:</h2>
-
-        
+      <div className="image-container">
+        <h2 id="featured-artist-heading">Featured Artists.</h2>
         <ImageIcons />
       </div>
+
       <div className="artist-zone-info-container">
         <ExpandableTextArea
           content={
             <p>
               Music is something we all love and most definitely cannot live
               without. Music artists have an undeniable influence on society
-              that transcends time and borders. Through their artistry, they
+              that transcends time and borders... Through their artistry, they
               possess the power to ignite emotions, inspire change, and shape
               cultural trends. Music artists often serve as the voice of a
               generation, addressing relevant social and political issues,
@@ -54,7 +53,7 @@ function ArtistZone() {
             </p>
           }
           excert={
-            "Music is something we all love and most definitely cannot live without."
+            "With the rise of digital platforms and social media, independent artists now have greater opportunities to reach audiences without the need for major record labels. Many artists are self-releasing music and building their careers independently."
           }
           expandable={true}
         />

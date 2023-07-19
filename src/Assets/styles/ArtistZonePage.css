@@ -1,3 +1,5 @@
+/* Assuming you have specified the width of the images in your HTML or they have a default width set by their container */
+
 .artist-zone-container {
   padding-left: 10px;
   padding-right: 10px;
@@ -6,4 +8,62 @@
 .artist-zone-info-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.image-container {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 400px; 
+  margin: 0 auto; */
+  width: 100%;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+#featured-artist-heading {
+  animation: fadeInOut 3s infinite;
+  font-size: 35px;
+  width: 100%;
+  text-align: center;
+}
+
+/* styles.css */
+
+/* Animation for the artist-zone-info-container */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.artist-zone-info-container {
+  /* Apply the fade-in animation to the artist-zone-info-container */
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Animation for the ExpandableTextArea */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.expandable-text-area {
+  /* Apply the slide-in animation to the ExpandableTextArea */
+  animation: slideIn 1s ease-in-out;
 }
