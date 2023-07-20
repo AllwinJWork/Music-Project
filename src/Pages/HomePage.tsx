@@ -1,12 +1,22 @@
 
+import homeBg from '../Assets/Home/HomeMain.jpg';
+import { Link } from 'react-router-dom';
+import Banner from '../Components/Banner/Banner';
 
-export default function HomePage () {
+
+const Home: React.FC = () => {
   return (
-    <div>
-        
-      
-    </div>
-  )
+    <div className="artist-zone-container">
+      <Banner
+        image={{ alt: "Home", src: homeBg }}
+        title="Home Page"
+        introText="There is power in music"
+        caption="Without music, our lives would be very boring!"
+      />
+      </div>
+    
+  );
 }
 
 
+export default Home;

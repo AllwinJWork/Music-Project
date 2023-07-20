@@ -1,6 +1,6 @@
 // import "../Components/ArtistZone.css";
 import "../Assets/styles/ArtistZonePage.css";
-import artistsMain from "../Assets/ArtistZone/Artists.jpeg";
+import artistsMain from "../Assets/ArtistZone/ArtistsMain.jpeg";
 
 import Banner from "../Components/Banner/Banner";
 import ImageIcons from "../Components/ImageIcons/ImageIcons";
