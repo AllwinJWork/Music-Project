@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Banner from '../Components/Banner/Banner';
 
 
-const Home: React.FC = () => {
+const home: React.FC = () => {
   return (
     <div className="artist-zone-container">
       <Banner
@@ -19,4 +19,4 @@ const Home: React.FC = () => {
 }
 
 
-export default Home;
+export default home;
