@@ -1,7 +1,10 @@
-import React from "react";
-import Banner from "../Components/Banner/Banner";
 
-const Enquries: React.FC = () => {
+import { Container, Row, Col } from "react-bootstrap"; // Import the necessary components from React Bootstrap
+import Banner from "../Components/Banner/Banner";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+const Enquries = () => {
   return (
     <div>
       <Banner
@@ -13,6 +16,7 @@ const Enquries: React.FC = () => {
         introText="There is power in music"
         caption="Without music, our lives would be very boring!"
       />
+      
     </div>
   );
 };

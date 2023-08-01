@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ExpandableTextArea.css"
+import "./ExpandableTextArea.css";
 
 export interface ExpandableTextAreaProps {
   content: React.ReactNode;

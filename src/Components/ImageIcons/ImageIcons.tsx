@@ -51,7 +51,7 @@ alt: "hey",
       src: mariahCarey,
       alt: "Post Malone",
     },
-    text: "Post ",
+    text: "Mariah Carey ",
   },
 
   
