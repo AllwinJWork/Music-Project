@@ -1,0 +1,17 @@
+.donation-page-heading{
+
+    animation: fadeInOut 3s infinite;
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

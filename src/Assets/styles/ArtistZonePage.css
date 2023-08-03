@@ -24,7 +24,7 @@
   }
 }
 
-#featured-artist-heading {
+.featured-artist-heading {
   animation: fadeInOut 3s infinite;
   font-size: 35px;
   width: 100%;
