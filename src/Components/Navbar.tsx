@@ -14,7 +14,7 @@ import './Navbar.css';
            <CustomLink to='/inspired'>Be Inspired</CustomLink>
            <CustomLink to='/artist'>Artist Zone</CustomLink>
            <CustomLink to='/donations'>Donations</CustomLink>
-           <CustomLink to='/enquries'>Enquries</CustomLink>
+           <CustomLink to='/enquiries'>Enquiries</CustomLink>
 
         </ul>
     </nav>

@@ -3,7 +3,7 @@ import Banner from "../Components/Banner/Banner";
 import emailjs from "emailjs-com";
 import "../Assets/styles/EnquriesPage.css";
 
-const Enquries: React.FC = () => {
+const Enquiries: React.FC = () => {
   const form = useRef<HTMLFormElement>(null);
   const [showPopup, setShowPopup] = useState(false);
 
@@ -34,7 +34,7 @@ const Enquries: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="artist-zone-container">
       <Banner
         image={{
           alt: "Be Inspired ",
@@ -46,7 +46,7 @@ const Enquries: React.FC = () => {
       />
       <h1 className="enquries-heading">Get in touch !</h1>
       <p className="enquries-text">Share your thoughts with us, any feedback is greatly appreciated!</p>
-      <form ref={form} onSubmit={sendEmail}>
+      <form ref={form} onSubmit={sendEmail} className="contact-form">
         <label>Name:</label>
         <input type="text" name="user_name" />
         <label>Email:</label>
@@ -64,4 +64,4 @@ const Enquries: React.FC = () => {
   );
 };
 
-export default Enquries;
+export default Enquiries;
