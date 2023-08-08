@@ -1,18 +1,8 @@
+.charity-main-header{
+  font-size:3rem;
+  text-align:center;  
+}
 
-@media screen and (max-width: 600px) {
-  .artist-zone-container img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .mobile-button-container {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-  }
-
-  .mobile-button-container button {
-    padding: 10px 20px;
-    font-size: 14px;
-  }
+.charity-main-text{
+  display: grid;
 }

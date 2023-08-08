@@ -83,14 +83,8 @@ function ArtistZone() {
               happens that private or corporate clients order a publication to
               be made and presented with the actual content still not being
               ready. Think of a news blog that's filled with content hourly on
-              the day of going live. However, reviewers tend to be distracted
-              byß comprehensible content, say, a random text copied from a
-              newspaper or the internet. They are likely to focus on the text,
-              disregarding the layout and its elements. Besides, random text
-              risks being unintentionally humorous or offensive, an unacceptable
-              risk in corporate environments. Lorem ipsum and its many variants
-              have been employed since the early 1960s, and quite likely since
-              the sixteenth century.
+              the day of going live. 
+              
             </p>
           }
           expandable={false}
