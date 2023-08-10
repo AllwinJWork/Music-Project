@@ -31,48 +31,69 @@ function Donations(props: DonationsProps) {
         introText="There is power in music"
         caption="Without music, our lives would be very boring!"
       />
-      <div >
-        <h1 className="charity-main-header">Charity of the Month.</h1>
-      </div>
+
       <div className="charity-main-text">
-        <h2>Guitars over Guns.
-        </h2>
-        <ExpandableTextArea
-          content={
-            <p>
-          Guitars Over Guns’ unique curriculum emphasizes social-emotional
-          learning and outcomes through music and arts instruction. After each
-          session, mentors assess students’ academic performance, school and
-          program attendance, artistic progress and peer interactions. We use
-          social-emotional learning measurements to evaluate key competencies
-          such as empathy, teamwork, initiative, responsibility and problem
-          solving.
-        </p>
-          }
-          excert={
-            "Find out more about them..."
-      
-          }
-          expandable={true}
-        />
+        <div className="charity-grid-container">
+          <div className="charity-text">
+            <h2 className="expandable-text-heading">Guitars over Guns.</h2>
+            <ExpandableTextArea
+              content={
+                <p>
+                  We’re on a mission to empower young people through music and
+                  mentorship. We are here to shift how young people think about
+                  the world and their place in it. By sharing skills and
+                  experience, rooted in our common passion for music, we inspire
+                  our students to see a future that’s filled with potential –
+                  and help them be excited and accountable. We cultivate an
+                  enriching community bound by the arts. United by
+                  community-based performances. Powered by high-quality
+                  instruction. Inspired by meaningful connections between
+                  professional musicians and our community’s youth. Because the
+                  world changes when people find their voices – and have the
+                  opportunity to be heard.
+                </p>
+              }
+              excert={
+                "Guitars Over Guns' unique curriculum emphasizes social-emotional \
+              learning and outcomes through music and arts instruction. After each session, mentors assess \
+              students' academic performance, school and program attendance, artistic progress, and peer \
+              interactions. We utilize social-emotional learning measurements to evaluate key competencies \
+              such as empathy, teamwork, initiative, responsibility, and problem solving."
+              }
+              expandable={true}
+            />
+            <img
+            src="https://images.unsplash.com/photo-1487702232819-65ae859daf8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODJ8fHBsYXlpbmclMjBpbnN0cnVtZW50fGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60"
+            alt="donation-caption"
+            className="donation-caption"
+            />
+           
+
+            
+          </div>
+
+          <div className="charity-image">
+            <img
+              src="https://images.unsplash.com/photo-1519640350407-953bc0614f4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGd1aXRhciUyMG92ZXIlMjBndW5zfGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60"
+              alt="featured-charity"
+            />
+          </div>
        
-        <p>
-          Learn more about their cause and how your donations can make a
-          difference.
-        </p>
-      </div>
-      <div>
-        <button
-          onClick={() =>
-            window.open(
-              "https://example.com/charity-page",
-              "_blank",
-              "noopener,noreferrer"
-            )
-          }
-        >
-          Visit Charity Page
-        </button>
+        </div>
+
+        <div>
+          <button
+            onClick={() =>
+              window.open(
+                "https://example.com/charity-page",
+                "_blank",
+                "noopener,noreferrer"
+              )
+            }
+          >
+            Visit Charity Page
+          </button>
+        </div>
       </div>
       <div className="donation-page-content">
         <h2 className="donation-page-heading">Make a Donation</h2>
