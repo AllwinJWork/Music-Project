@@ -8,28 +8,29 @@
 
 .charity-main-text {
   display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
+  align-items: center; /* Vertically align items in the middle */
 }
 
 .charity-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  align-items: center; /* Vertically align items in the middle */
 }
 
 .charity-text {
-  align-self: flex-start;
   text-align: center;
-  padding-left: 130px;
 }
 
-.charity-image {
-  display: flex; /* Enable flexbox */
+.right-column-image {
+  display: flex; /* Enable flexbox for the right column */
   justify-content: center; /* Center align horizontally */
-  align-items: center; /* Center align vertically */
+  align-items: center; /* Vertically align items in the middle */
 }
 
-.charity-image img {
+.right-column-image img {
   max-width: 100%;
   max-height: 700px;
   width: auto;
@@ -39,16 +40,16 @@
 @media (max-width: 768px) {
   /* Adjust styles for smaller screens */
   .charity-grid-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Single column layout for smaller screens */
   }
 
   .charity-text,
-  .charity-image {
+  .right-column-image {
     padding: 0 20px;
   }
 }
 
-.donation-caption {
+.bottom-image {
   width: 100%; /* Set the desired width for the image */
   max-width: 400px; /* Set a maximum width if needed */
   margin-top: 20px; /* Adjust margin as needed */
@@ -56,6 +57,3 @@
   border-radius: 4px; /* Add border radius if desired */
   box-shadow: 0px 0px 5px rgba(216, 10, 192, 0.2); /* Add a shadow if desired */
 }
-
-
- 

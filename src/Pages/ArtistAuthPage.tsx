@@ -5,7 +5,7 @@ import useRelatedArtists from "../hooks/useRelatedArtists/useRelatedArtists";
 import useGetAccessToken from "../hooks/useGetAccessToken/useGetAccessToken";
 import ArtistSearchResults from "../Components/ArtistSearch/ArtistSearchResults";
 import Banner from "../Components/Banner/Banner";
-import ExpandableTextArea from "../Components/ExpandableTextArea/ExpandableTextArea";
+import {ExpandableTextArea} from "../Components/ExpandableTextArea/ExpandableTextArea";
 
 const ArtistAuth = () => {
   const [artistSearch, setArtistSearch] = useState("");
@@ -17,13 +17,14 @@ const ArtistAuth = () => {
   const handleSelectArtist = (artistId: string) => {
     setSelectedArtistId(artistId);
   };
+  const beInspiredImage="https://images.unsplash.com/photo-1643208589889-4f02359645c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNwb3RpZnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=900&q=60"
 
   return (
     <div>
       <Banner
         image={{
           alt: "Be Inspired",
-          src: "https://images.unsplash.com/photo-1643208589889-4f02359645c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNwb3RpZnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=900&q=60",
+          src: beInspiredImage,
         }}
         title="Be Inspired"
         introText="There is power in music"

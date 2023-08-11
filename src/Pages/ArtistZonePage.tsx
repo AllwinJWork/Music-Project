@@ -4,7 +4,7 @@ import artistsMain from "../Assets/ArtistZone/ArtistsMain.jpeg";
 
 import Banner from "../Components/Banner/Banner";
 import ImageIcons from "../Components/ImageIcons/ImageIcons";
-import ExpandableTextArea from "../Components/ExpandableTextArea/ExpandableTextArea";
+import {ExpandableTextArea} from "../Components/ExpandableTextArea/ExpandableTextArea";
 
 
 

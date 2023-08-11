@@ -10,7 +10,7 @@ export interface ExpandableTextAreaProps {
   };
   expandable?: boolean;
 }
-const ExpandableTextArea = ({
+ export const ExpandableTextArea = ({
   content,
   excert,
   buttonLink,
@@ -35,4 +35,4 @@ const ExpandableTextArea = ({
   );
 };
 
-export default ExpandableTextArea;
+
