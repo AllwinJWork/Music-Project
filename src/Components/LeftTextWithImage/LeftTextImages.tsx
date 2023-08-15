@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+
 import { LeftTextWithImageProps } from "./LeftTextWithImages";
-import { ExpandableTextArea } from "../ExpandableTextArea/ExpandableTextArea";
+
 
 export const LeftTextWithImage = ({
   bottomImage,
@@ -9,40 +9,19 @@ export const LeftTextWithImage = ({
   leftColumnImage,
   title,
 }: LeftTextWithImageProps) => {
-  const [expanded, setExpanded] = useState(false);
-
-  const handleTextClick = () => {
-    setExpanded(!expanded);
-  };
-
   return (
     <div className="text-grid-container">
-
       <div className="left-column-image">
         <img
           className={`fade-in ${leftColumnImage ? "fade-in" : ""}`}
           {...leftColumnImage}
         />
       </div>
-      <div className="text">
-        <h2
-          className={`expandable-text-heading ${expanded ? "expanded" : ""}`}
-          onClick={handleTextClick}
-        >
-          {title}
-        </h2>
-       <p>
-      {excert}
-       </p>
-         <img
-          className={`bottom-image ${bottomImage ? "fade-in" : ""}`}
-          {...bottomImage}
-        />
-        <p>
-          
-        </p>
+      <div className="left-text">
+        <h2 className="expandable-text-heading">{title}</h2>
+        <p className="expandable-content">{content}</p>
+        <p className="expandable-content">{excert}</p>
       </div>
-
     </div>
   );
 };
