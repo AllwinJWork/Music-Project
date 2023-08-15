@@ -1,0 +1,65 @@
+.right-text-container {
+    margin-left: 270px;
+    /* Adjust the margin for smaller screens */
+    @media (max-width: 768px) {
+      margin-left: 0; /* Remove the left margin on smaller screens */
+      padding: 20px; /* Add padding to give some space around the content */
+    }
+  }
+  
+  .expandable-text-heading {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .expandable-text-heading {
+      font-size: 3rem;
+      font-weight: bold;
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+  
+  .text-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .text {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .right-column-image img {
+    max-width: 100%;
+    max-height: 700px;
+    width: auto;
+    height: auto;
+    padding-top: 21px;
+  }
+  @media (max-width: 768px) {
+    .right-column-image img {
+      max-width: 100%; /* Allow the image to take the full width of the container */
+      max-height: 600px; /* Set a smaller maximum height for responsiveness */
+      height: 65%;
+    }
+  }
+  
+  .bottom-image {
+    width: 100%; /* Set the desired width for the image */
+    max-width: 400px; /* Set a maximum width if needed */
+  height: 100%;
+    padding-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .bottom-image {
+      max-width: 250px; /* Adjust the maximum width for smaller screens */
+    }
+  }
+   
+  

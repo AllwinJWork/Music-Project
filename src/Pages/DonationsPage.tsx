@@ -1,7 +1,10 @@
 import React, { useState, ChangeEvent } from "react";
 import Banner from "../Components/Banner/Banner";
 import "../Assets/styles/DonationsPage.css";
-import { TextWithImage } from "../Components/TextWithImage/TextWithImage";
+import { TextWithImage } from "../Components/RightTextWithImage/TextWithImage";
+import PageDivider from "../Components/PageDivider/PageDivider";
+import PageDividers from "../Components/PageDivider/PageDividers";
+import { LeftTextWithImage } from "../Components/LeftTextWithImage/LeftTextImages";
 
 interface DonationsProps {}
 
@@ -30,30 +33,45 @@ function Donations(props: DonationsProps) {
         caption="Without music, our lives would be very boring!"
       />
 
-      <div className="main-text">
-        
-          <TextWithImage
-            title={"Guitars over Guns."}
-            content={
-              "  We’re on a mission to empower young people through music and"
-            }
-            excert={
-              "Guitars Over Guns' unique curriculum emphasizes social-emotional \
+      <div className="right-text-container">
+        <TextWithImage
+          title={"Guitars over Guns."}
+          content={
+            "  We’re on a mission to empower young people through music and"
+          }
+          excert={
+            "Guitars Over Guns' unique curriculum emphasizes social-emotional \
             learning and outcomes through music and arts instruction. After each session, mentors assess \
             students' academic performance, school and program attendance, artistic progress, and peer \
             interactions. We utilize social-emotional learning measurements to evaluate key competencies \
             such as empathy, teamwork, initiative, responsibility, and problem solving."
-            }
-            bottomImage={{
-              alt: "bottom-image",
-              src: "https://images.unsplash.com/photo-1487702232819-65ae859daf8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODJ8fHBsYXlpbmclMjBpbnN0cnVtZW50fGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60",
-            }}
-            rightColumnImage={{
-              alt: "right-column-image",
-              src: "https://images.unsplash.com/photo-1519640350407-953bc0614f4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGd1aXRhciUyMG92ZXIlMjBndW5zfGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60",
-            }}
-          />
+          }
+          bottomImage={{
+            alt: "bottom-image",
+            src: "https://images.unsplash.com/photo-1487702232819-65ae859daf8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODJ8fHBsYXlpbmclMjBpbnN0cnVtZW50fGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60",
+          }}
+          rightColumnImage={{
+            alt: "right-column-image",
+            src: "https://images.unsplash.com/photo-1519640350407-953bc0614f4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGd1aXRhciUyMG92ZXIlMjBndW5zfGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60",
+          }}
+        />
+
         
+        <div className="left-text-container">
+        <LeftTextWithImage 
+          title={"Their Work"}
+          content={"Blah blah blah"}
+          excert={"More blah blah blah blah"}
+          bottomImage={{
+            alt: "bottom-image",
+            src: "https://images.unsplash.com/photo-1487702232819-65ae859daf8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODJ8fHBsYXlpbmclMjBpbnN0cnVtZW50fGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60",
+          }}
+          leftColumnImage={{
+            alt: "left-column-image",
+            src: "https://images.unsplash.com/photo-1519640350407-953bc0614f4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGd1aXRhciUyMG92ZXIlMjBndW5zfGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60",
+          }}
+        />
+
         <div>
           <button
             onClick={() =>
@@ -87,6 +105,7 @@ function Donations(props: DonationsProps) {
         </p>
         <button onClick={handleDonate}>Donate Now</button>
       </div>
+    </div>
     </div>
   );
 }

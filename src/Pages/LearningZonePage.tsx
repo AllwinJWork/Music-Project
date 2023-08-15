@@ -1,7 +1,12 @@
 import React from "react";
 import Banner from "../Components/Banner/Banner";
+import { Line } from 'react-chartjs-2';
 
 const LearningZone: React.FC = () => {
+  
+  
+
+
   return (
     <div>
       <Banner
@@ -14,6 +19,7 @@ const LearningZone: React.FC = () => {
         caption="Without music, our lives would be very boring!"
       />
     </div>
+
   );
 };
 

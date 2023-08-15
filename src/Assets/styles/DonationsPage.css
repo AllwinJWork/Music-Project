@@ -1,59 +1,20 @@
 /* DonationsPage.css */
-
-.expandable-text-heading {
-  font-size: 4rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.charity-main-text {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  align-items: center; /* Vertically align items in the middle */
-}
-
-.charity-grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  align-items: center; /* Vertically align items in the middle */
-}
-
-.charity-text {
-  text-align: center;
-}
-
-.right-column-image {
-  display: flex; /* Enable flexbox for the right column */
-  justify-content: center; /* Center align horizontally */
-  align-items: center; /* Vertically align items in the middle */
-}
-
-.right-column-image img {
+.left-column-image img {
   max-width: 100%;
   max-height: 700px;
   width: auto;
   height: auto;
+  padding-top: 21px;
 }
+  
 
-@media (max-width: 768px) {
-  /* Adjust styles for smaller screens */
-  .charity-grid-container {
-    grid-template-columns: 1fr; /* Single column layout for smaller screens */
-  }
 
-  .charity-text,
-  .right-column-image {
-    padding: 0 20px;
-  }
-}
 
-.bottom-image {
-  width: 100%; /* Set the desired width for the image */
-  max-width: 400px; /* Set a maximum width if needed */
-  margin-top: 20px; /* Adjust margin as needed */
-  border: 1px solid #ddd; /* Add a border if desired */
-  border-radius: 4px; /* Add border radius if desired */
-  box-shadow: 0px 0px 5px rgba(216, 10, 192, 0.2); /* Add a shadow if desired */
-}
+
+
+
+
+
+
+
+

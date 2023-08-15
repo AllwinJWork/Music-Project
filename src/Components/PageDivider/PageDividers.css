@@ -1,0 +1,14 @@
+/* Center the container vertically and horizontally */
+.page-divider-container {
+    display:flex;
+    gap: 2px;
+  }
+  
+  .page-divider-container img {
+    width: 400px;
+    height: 300px;
+    position:relative;
+
+
+  }
+  
