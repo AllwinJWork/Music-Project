@@ -1,14 +1,22 @@
 /* Center the container vertically and horizontally */
 .page-divider-container {
-    display:flex;
-    gap: 2px;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Adjust the gap between images */
+  padding: 20px; /* Add some padding to the container */
+  box-sizing: border-box; /* Include padding in container's width and height */
+}
+
+.page-divider-container img {
+  width: 350px; /* Set a common width for all images */
+  height: 300px; /* Set a common height for all images */
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
+}
+
+/* Hide images on smaller screens */
+@media (max-width: 768px) {
   .page-divider-container img {
-    width: 400px;
-    height: 300px;
-    position:relative;
-
-
+      display: none;
   }
-  
+}

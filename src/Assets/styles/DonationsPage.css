@@ -7,6 +7,15 @@
   padding-top: 21px;
 }
 
+.page-divider {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the left */
+}
+
+.page-divider img {
+  margin-left: -100px; 
+}
 
 
 

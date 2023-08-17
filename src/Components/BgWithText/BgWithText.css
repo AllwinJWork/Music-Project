@@ -1,0 +1,57 @@
+/* BgWithText.css */
+
+/* Styles for the container that holds the background image and text */
+.bg-text {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-size: 75% 75%;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+/* Styles for the heading (h1) within the container */
+.bg-text h1 {
+  font-size: 38px;
+  padding: 10px;
+
+}
+
+/* Styles for the paragraph (p) within the container */
+.bg-text p {
+  font-size: 18px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: monospace;
+  word-wrap: break-word;
+  max-width: 75%;
+}
+
+/* Styles for images within the container */
+.bg-text img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .bg-text {
+    padding: 10px;
+    background-size: 100% auto; /* Set background image to cover full width */
+  }
+  
+  .bg-text h1 {
+    font-size: 28px;
+  }
+  
+  .bg-text p {
+    font-size: 16px;
+  }
+}

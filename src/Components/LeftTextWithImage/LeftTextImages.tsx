@@ -3,7 +3,6 @@ import { LeftTextWithImageProps } from "./LeftTextWithImages";
 
 
 export const LeftTextWithImage = ({
-  bottomImage,
   content,
   excert,
   leftColumnImage,

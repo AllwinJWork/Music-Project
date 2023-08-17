@@ -1,8 +1,7 @@
-export interface TextWithImageProps {
+export interface RightTextWithImageProps {
     title: string;
     content: string;
     excert: string;
-    bottomImage:Image;
     rightColumnImage:Image;
   }
   export interface Image 

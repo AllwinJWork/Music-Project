@@ -8,6 +8,7 @@ export const TextWithImage = ({
   content,
   excert,
   rightColumnImage,
+  additionalImage, // Add the additionalImage prop here
   title,
 }: TextWithImageProps) => {
   const [expanded, setExpanded] = useState(false);
@@ -30,10 +31,15 @@ export const TextWithImage = ({
           excert={excert}
           expandable={true}
         />
-        
+
         <img
           className={`bottom-image ${bottomImage ? "fade-in" : ""}`}
           {...bottomImage}
+        />
+
+<img
+          className={`additional-image ${additionalImage ? "fade-in" : ""}`}
+          {...additionalImage}
         />
       </div>
 
@@ -43,6 +49,9 @@ export const TextWithImage = ({
           {...rightColumnImage}
         />
       </div>
+
+       
+      
     </div>
   );
 };
