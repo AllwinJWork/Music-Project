@@ -7,6 +7,8 @@ export const LeftTextWithImage = ({
   excert,
   leftColumnImage,
   title,
+  addtionalText,
+
 }: LeftTextWithImageProps) => {
   return (
     <div className="text-grid-container">
@@ -20,6 +22,7 @@ export const LeftTextWithImage = ({
         <h2 className="expandable-text-heading">{title}</h2>
         <p className="expandable-content">{content}</p>
         <p className="expandable-content">{excert}</p>
+        <p className="expandable-content">{addtionalText}</p>
       </div>
     </div>
   );

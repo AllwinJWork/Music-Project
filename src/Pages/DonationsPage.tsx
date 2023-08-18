@@ -51,17 +51,12 @@ const Donations: React.FC<DonationsProps> = (props) => {
         {/* Second TextWithImage Component */}
         <LeftTextWithImage
           title={"Their Work."}
-          content={
-            "Through arts-based mentoring, Guitars Over Guns is addressing three primary, interrelated challenges facing youth from vulnerable communities in Miami and Chicago: the need for positive adult relationships, the lack of access to high-quality arts programming, and the cycle of disenfranchisement, apathy and violence."
-          }
-          excert={
-            "Through arts-based mentoring, Guitars Over Guns is addressing three primary, interrelated challenges facing youth from vulnerable communities..."
-          }
+          content={"Through arts-based mentoring, Guitars Over Guns is addressing three primary, interrelated challenges facing youth from vulnerable communities in Miami and Chicago: the need for positive adult relationships, the lack of access to high-quality arts programming, and the cycle of disenfranchisement, apathy and violence."}
+          excert={"Through arts-based mentoring, Guitars Over Guns is addressing three primary, interrelated challenges facing youth from vulnerable communities..."}
           leftColumnImage={{
             alt: "left-column-image",
             src: "https://images.unsplash.com/photo-1586611637670-bd7d9cae86b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2hhcml0YWJsZSUyMGRlZWRzfGVufDB8MXwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60",
-          }}
-        />
+          }} addtionalText={""}        />
 
         {/* Third TextWithImage Component */}
         <RightTextWithImage
@@ -80,17 +75,12 @@ const Donations: React.FC<DonationsProps> = (props) => {
 
         <LeftTextWithImage
           title={"Their Work."}
-          content={
-            "For Guitars Over Guns, the key to unlocking that capacity is a caring mentor who connects with them through the transformational power of music. We leverage music as a vehicle for expression, a gateway to dignity, a universal language and a bridge to connect youth to a mentor that can help unlock their potential, empowering them to break the cycles that often dominate the realities of their environment. Our students have a positive sense of self, build capacity to redefine and achieve success both personally and academically, and take accountability for their future."
-          }
-          excert={
-            "Through arts-based mentoring, Guitars Over Guns is addressing three primary, interrelated challenges facing youth from vulnerable communities..."
-          }
+          content={"For Guitars Over Guns, the key to unlocking that capacity is a caring mentor who connects with them through the transformational power of music. We leverage music as a vehicle for expression, a gateway to dignity, a universal language and a bridge to connect youth to a mentor that can help unlock their potential, empowering them to break the cycles that often dominate the realities of their environment. Our students have a positive sense of self, build capacity to redefine and achieve success both personally and academically, and take accountability for their future."}
+          excert={"Through arts-based mentoring, Guitars Over Guns is addressing three primary, interrelated challenges facing youth from vulnerable communities..."}
           leftColumnImage={{
             alt: "left-column-image",
             src: "https://images.unsplash.com/photo-1497215641119-bbe6d71ebaae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8d29ya3xlbnwwfDF8MHx8fDA%3D&auto=format&fit=crop&w=900&q=60",
-          }}
-        />
+          }} addtionalText={""}        />
       
       </div>
     </div>
