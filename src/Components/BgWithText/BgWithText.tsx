@@ -3,8 +3,10 @@ import './BgWithText.css';
 
 interface BgWithTextProps {
   imageUrl: string;
-  text: string;
   heading: string;
+  text: string;
+  additionalText: string;
+ 
 }
 
 const BgWithText: React.FC<BgWithTextProps> = ({ imageUrl, text, heading }) => {

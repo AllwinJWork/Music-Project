@@ -1,5 +1,5 @@
 import React from 'react'
-import { Artists } from '../../hooks/useArtistSearch/Search.types';
+import { Artists } from '../../hooksSpotify/useArtistSearch/Search.types';
 
 
 export interface ArtistSearchResultsProps { 

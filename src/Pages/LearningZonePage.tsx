@@ -19,12 +19,9 @@ const LearningZone = () => {
       />
 
       <BgWithText
-        imageUrl={
-          "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2t8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=900&q=60"
-        }
+        imageUrl={"https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2t8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=900&q=60"}
         text={"jdhfjdshfjdshfjshdfhjs"}
-        heading={"What is music?"}
-      />
+        heading={"What is music?"} additionalText={""}      />
 
       <div className="learning">
         <LeftTextWithImage

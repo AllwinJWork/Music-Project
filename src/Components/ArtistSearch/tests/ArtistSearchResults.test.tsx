@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from "@testing-library/react";
-import { Artists } from "../../../hooks/useArtistSearch/Search.types";
+import { Artists } from "../../../hooksSpotify/useArtistSearch/Search.types";
 import ArtistSearchResults from "../ArtistSearchResults";
 
 describe("ArtistSearchResults", () => {

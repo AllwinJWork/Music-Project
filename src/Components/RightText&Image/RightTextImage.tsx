@@ -1,4 +1,5 @@
 import { RightTextWithImageProps } from "./RightTextImages";
+import "./RightTextWithImages.css";
 
 
 
@@ -12,9 +13,9 @@ export const RightTextWithImage = ({
     <div className="text-grid-container">
      
       <div className="right-text">
-        <h2 className="expandable-text-heading">{title}</h2>
-        <p className="expandable-content">{content}</p>
-        <p className="expandable-content">{excert}</p>
+        <h2 className="right-text-heading">{title}</h2>
+        <p className="right-text-content">{content}</p>
+        <p className="right-text content-content">{excert}</p>
       </div>
       <div className="right-column-image">
         <img

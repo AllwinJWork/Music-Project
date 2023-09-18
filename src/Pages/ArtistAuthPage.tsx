@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import ArtistSearch from "../Components/ArtistSearch/ArtistSearch";
-import useArtistSearch from "../hooks/useArtistSearch/useArtistSearch";
-import useRelatedArtists from "../hooks/useRelatedArtists/useRelatedArtists";
-import useGetAccessToken from "../hooks/useGetAccessToken/useGetAccessToken";
+import useArtistSearch from "../hooksSpotify/useArtistSearch/useArtistSearch";
+import useRelatedArtists from "../hooksSpotify/useRelatedArtists/useRelatedArtists";
+import useGetAccessToken from "../hooksSpotify/useGetAccessToken/useGetAccessToken";
 import ArtistSearchResults from "../Components/ArtistSearch/ArtistSearchResults";
 import Banner from "../Components/Banner/Banner";
 import {ExpandableTextArea} from "../Components/ExpandableTextArea/ExpandableTextArea";
